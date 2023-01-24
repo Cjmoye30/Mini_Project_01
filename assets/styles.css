@@ -1,31 +1,33 @@
 * {
     margin: 0;
     padding: 0;
-    border: solid .25px;
 }
 
 body {
-    width: 100%;
+    height: 100%;
 }
 
 header {
     width: 100%;
     height: 50px;
-    text-align: center;
-    padding: 10px 30px;
     line-height: 50px;
+    background-color: olivedrab;
+
+}
+
+.nav-links {
+    text-align: right;
 }
 
 .links {
-    float: right;
-    padding: 0 30px;
+    padding: 20px 30px;
+    font-size: 18px;
 }
 
-.main-content {
+.section1 {
     text-align: center;
     width: 100%;
     margin: 0 auto;
-    background-color: olivedrab;
     padding: 25px 0;
 }
 
